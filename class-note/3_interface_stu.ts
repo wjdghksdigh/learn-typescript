@@ -27,10 +27,10 @@ interface SumFuction {
     (a: number, b: number): number;
 }
 
-let sum: SumFuction;
-sum = function(a: number, b: number): number {
-    return a+b;
-}
+// let sum: SumFuction;
+// sum = function(a: number, b: number): number {
+//     return a+b;
+// }
 
 // 인덱싱
 interface StringArray {
@@ -71,8 +71,8 @@ interface Developer extends Person {
     lag: string;
 }
 
-var captin: Developer = {
-    lag: 'java',
-    age: 10,
-    name: 'captin'
-}
+// var captin: Developer = {
+//     lag: 'java',
+//     age: 10,
+//     name: 'captin'
+// }
