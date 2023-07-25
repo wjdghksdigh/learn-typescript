@@ -6,3 +6,14 @@ function sum(a:number,b:number):number{
 // Error
 // sum2(10,20,30,40);
 
+class Person1 {
+    // ts 부분
+    private name: string;
+    public age: number;
+    readonly log: string;
+
+    constructor(name: string, age: number){
+        this.name = name;
+        this.age = age;
+    }
+}
